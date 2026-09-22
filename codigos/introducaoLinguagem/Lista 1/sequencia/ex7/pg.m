@@ -1,6 +1,7 @@
 %{
-Programa: salario.m
-Descrição: Este programa pergunta o primeiro e último termo para uma p.g e retorna o n-ésimo termo e a soma até o número fornecido.
+Programa: pg.m
+Descrição: Este programa pergunta o primeiro e último termo para uma p.g e
+retorna o n-ésimo termo e a soma até o número termo.
 Autor:Luís Felipe Almeida de Souza
 Versão: 0.0.1
 %}
@@ -22,11 +23,14 @@ a1= input('Escolha o primeiro termo: ');
 razao =input('Digite a razão: ');
 
 %Processamento de dados
-an= a1*razao^(n-1);
-soma = a1* (razao^n -1)/(razao-1);
+an= razao^(n-1)*a1;
 
-
+if razao ==1
+  soma = a1*n;
+else
+  soma = a1*(razao^n)-1/(razao-1);
+end
 
 %Saída de dados
 fprintf('O n-ésimo termo é: %.2f\n',an);
-fprintf('A soma da pa é: %.2f\n',soma);
+fprintf('A soma da pg é: %.2f\n',soma);

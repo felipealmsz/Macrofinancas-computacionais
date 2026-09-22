@@ -1,11 +1,12 @@
 %{
-Programa: salario.m
-Descrição: Este programa pergunta o primeiro e último termo para uma p.a e retorna o n-ésimo termo e a soma até o número fornecido.
+Programa: pa.m
+Descrição: Este programa pergunta o primeiro e último termo para uma p.a e retorna
+o n-ésimo termo e a soma até o número fornecido.
 Autor:Luís Felipe Almeida de Souza
 Versão: 0.0.1
 %}
 
-% Limpeza de meória e tela
+% Limpeza de memória e tela
 
 clear
 clc

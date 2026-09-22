@@ -1,25 +1,23 @@
 %{
 Programa: hello.m
-Descrição: Este programa imprime a frase 'Hello,world' na tela
-Autor:Luís Felipe Almeida de Souza
+Descrição: Este programa imprime a frase 'Hello, world' na tela
+Autor: Luís Felipe
 Versão: 0.0.1
 %}
 
-% Limpeza de meória e tela
+% Limpeza de memória e tela
 clear
 clc
 
-%Alocação de memória
+% Alocação de memória
+frase = 'Hello,world';
 
-frase= 'Hello,world';
-%%% definindo as variáveis
+% Definindo as variáveis
 
-%Entrada de memória
+% Entrada de dados
 
-%Processamento de dados
+% Processamento de dados
 
-%Saída de dados
-disp(frase)
-
-
+% Saída de dados
+fprintf('%s\n', frase);
 

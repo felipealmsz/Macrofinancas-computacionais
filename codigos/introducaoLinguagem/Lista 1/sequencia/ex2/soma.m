@@ -5,7 +5,7 @@ Autor:Luís Felipe Almeida de Souza
 Versão: 0.0.1
 %}
 
-% Limpeza de meória e tela
+% Limpeza de memória e tela
 clear
 clc
 
@@ -20,7 +20,7 @@ numero2= 3;
 %Processamento de dados
 soma = numero + numero2;
 %Saída de dados
-fprintf('\n A soma entre os números %d e %d soma',numero,numero2,soma)
+fprintf('\n A soma entre os números %d e %d é %d \n',numero,numero2,soma)
 
 
 

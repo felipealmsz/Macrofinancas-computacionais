@@ -1,5 +1,5 @@
 %{
-Programa: salario.m
+Programa: eq_linear.m
 Descrição: Este programa a equação linear ax=b.
 Autor:Luís Felipe Almeida de Souza
 Versão: 0.0.1
@@ -19,10 +19,14 @@ b =0;
 a = input('Digite o coeficiente da equação: ');
 b= input('Digite o valor de b: ');
 
-%Processamento de dados
-x = b/a
+%Processamento e saída de dados
+if a ~= 0
+    x = b / a;
+    fprintf('A solução é x = %.2f\n', x);
+elseif b ~= 0
+    fprintf('A equação não possui solução.\n');
+else
+    fprintf('A equação possui infinitas soluções.\n');
+end
 
-
-%Saída de dados
-fprintf('O valor de x é %.2f \n: ',x);
 
