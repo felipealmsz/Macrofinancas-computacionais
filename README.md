@@ -2,7 +2,7 @@
 
 Este repositório contém as atividades desenvolvidas na disciplina de Macrofinanças Computacionais.
 
-#Estrutura do repositório
+## Estrutura do repositório
 
 A pasta codigos/ contém os códigos desenvolvidos em GNU Octave, correspondentes às listas de exercícios e atividades disponibilizadas pelo professor ao longo da disciplina.
 
