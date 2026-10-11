@@ -4,6 +4,6 @@ Este repositório contém as atividades desenvolvidas na disciplina de Macrofina
 
 ## Estrutura do repositório
 
-A pasta codigos/ contém os códigos desenvolvidos em GNU Octave, correspondentes às listas de exercícios e atividades disponibilizadas pelo professor ao longo da disciplina.
+A pasta codigos contém as resoluções das listas de exercicios disponibilizadas ao longo do semestre. Os códigos foram desenvolvidos em GNU Octave.
 
 Os arquivos estão organizados de acordo com as respectivas atividades, facilitando a consulta e a reprodução dos exercícios realizados durante o curso.
